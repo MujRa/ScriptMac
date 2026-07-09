@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.usuario.organizarcorreov2</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/osascript</string>
+        <string>/Users/TU_USUARIO/OrganizarCorreo/OrganizarCorreoV2.applescript</string>
+    </array>
+
+    <!-- Corre cada 1800 segundos = 30 minutos. Cambia este número para ajustar la frecuencia -->
+    <key>StartInterval</key>
+    <integer>1800</integer>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/TU_USUARIO/OrganizarCorreo/salidaV2.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/TU_USUARIO/OrganizarCorreo/erroresV2.log</string>
+</dict>
+</plist>
